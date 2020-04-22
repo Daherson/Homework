@@ -6,7 +6,6 @@ hours = int(hours)
 rate_per_hour = int(rate_per_hour)
 the_prize = int(rate_per_hour)
 
-
 def salary_counter():
     try:
         print("Your salary", hours * rate_per_hour + the_prize)
